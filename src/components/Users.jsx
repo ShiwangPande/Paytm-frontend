@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import User from "./User";
 import axios from "axios";;
-import { useEffect } from "ract";
+import { useEffect } from "react";
 export default function Users() {
     const [users, setUsers] = useState([]);
     const [filter, setFilter] = useState("");
