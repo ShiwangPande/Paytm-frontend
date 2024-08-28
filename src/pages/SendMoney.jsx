@@ -1,7 +1,7 @@
 
-import Inputbox from "../components/Inputbox"
+import Inputbox from "../components/Inputbox";
 import { useSearchParams } from "react-router-dom";
-import axios from "axios"
+import axios from "axios";
 import { useState } from "react";
 
 function SendMoney() {

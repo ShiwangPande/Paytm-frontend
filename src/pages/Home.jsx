@@ -1,7 +1,7 @@
-import React from 'react'
-import Appbar from '../components/Appbar'
-import Button from '../components/Button'
-import { useNavigate } from 'react-router-dom'
+import React from 'react';
+import Appbar from '../components/Appbar';
+import Button from '../components/Button';
+import { useNavigate } from 'react-router-dom';
 import Heading from '../components/Heading';
 
 export default function Home() {

@@ -3,7 +3,7 @@ import Signin from "./pages/Signin";
 import SendMoney from "./pages/SendMoney";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 function App() {
 
   return (

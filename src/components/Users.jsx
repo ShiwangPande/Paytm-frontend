@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import Inputbox from "./Inputbox";
-import Button from "./Button";
 import User from "./User";
-import axios from "axios";
-import { useEffect } from "react";
+import axios from "axios";;
+import { useEffect } from "ract";
 export default function Users() {
     const [users, setUsers] = useState([]);
     const [filter, setFilter] = useState("");
