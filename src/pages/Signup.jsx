@@ -13,7 +13,7 @@ function Signup() {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const handleclick = async ()=>{
-    const response = await axios.post("http://localhost:3000/api/v1/user/signup", {
+    const response = await axios.post("https://paytm-backend-3zxw.onrender.com/api/v1/user/signup", {
        username,
        firstName,
        lastName,

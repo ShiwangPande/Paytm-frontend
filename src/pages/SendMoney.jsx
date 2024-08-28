@@ -10,7 +10,7 @@ function SendMoney() {
   const [amount, setAmount]=useState(0);
   const name= searchParams.get("name");
   const handleclick=()=>{
-    axios.post("http://localhost:3000/api/v1/account/transfer",
+    axios.post("https://paytm-backend-3zxw.onrender.com/api/v1/account/transfer",
       {
         to: id,
         amount: amount
