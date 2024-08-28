@@ -40,7 +40,7 @@ function Signup() {
       setPassword(e.target.value)
     }}  label={"Password"} placeholder={"123456"}/>
     <div className="m-4">
-    <Button onClick={handleclick} label={"Sign Up"} />
+    <Button onClick={handleclick} label={"Sign In"} />
     </div>
     <BottomWarning label={"Already have an account?"} to={"/signin"} button={"Sign in"}/>
     </div>
