@@ -1,7 +1,7 @@
 import BottomWarning from "../components/BottomWarning";
 import Button from "../components/Button";
 import Heading from "../components/Heading";
-import Inputbox from "../components/Inputbox";
+import InputBox from "../components/InputBox";
 import SubHeading from "../components/SubHeading";
 import {useState} from "react";
 import axios from "axios";
@@ -24,10 +24,10 @@ function Signin() {
     <div className="flex flex-col rounded-lg  w-80  my-auto bg-white  ">
     <Heading label={"Sign In"}/>
     <SubHeading label={"Enter your information to access your account"}/>
-    <Inputbox onChange={(e)=>{
+    <InputBox onChange={(e)=>{
       setUsename(e.target.value)
     }}  label={"Email"} placeholder={"shiwang@gmail.com"}/>
-    <Inputbox onChange={(e)=>{
+    <InputBox onChange={(e)=>{
       setPassword(e.target.value)
     }}  label={"Password"} placeholder={"123456"}/>
     <div className="m-4">

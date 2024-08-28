@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Inputbox({placeholder, label, onChange}) {
+export default function InputBox({placeholder, label, onChange}) {
   return (
     <div>
     <div className='text-lg font-semibold mx-4 mt-1'>{label}</div>

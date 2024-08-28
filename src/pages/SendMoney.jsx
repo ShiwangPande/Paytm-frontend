@@ -1,5 +1,5 @@
 
-import Inputbox from "../components/Inputbox";
+import InputBox from "../components/InputBox";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
@@ -38,7 +38,7 @@ function SendMoney() {
             </div>
          
         </div>
-      <Inputbox onChange={(e)=>{
+      <InputBox onChange={(e)=>{
          setAmount(e.target.value)
       }} placeholder={"Enter Amount"} label={" Amount (in Rs)"}/>
   
